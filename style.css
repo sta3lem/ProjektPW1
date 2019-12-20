@@ -1,0 +1,211 @@
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+  }   
+  .menu__list{
+    display: flex;  
+    text-align: center;
+    margin-left: center;
+    list-style: none; 
+    width: 100%;
+    justify-content: center;
+  }
+  .menu__link{
+    display: flex;
+  }
+  ul{
+    padding: 0;
+  }
+
+  .menu{
+    background-color: #2e2828;
+    padding-top: 10px;
+  }
+  
+  .menu__link{
+    padding: 0px 50px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    color: #cfb53b;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+  body{
+    background-color:#2e2828;
+    width: 100%;
+    
+  }
+  .header {
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+    color: #cfb53b;
+    font-size: 75px;
+    font-family: 'BankGothic Lt BT';
+  }
+  .border{
+    border-bottom: solid;
+    border-bottom-color: #cfb53b;
+    padding-top: 10px
+        
+     
+  }
+  .mapouter{
+    
+    text-align:right;
+    height:500px;
+    width:600px;
+    margin-left: 35%;
+    margin-top: 225px;
+
+    
+  }
+  
+  
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+  }
+
+  .table{
+    
+    font-family: 'Exo 2', sans-serif;
+    text-align:center;
+    color: #cfb53b;
+    width: 250px;
+    font-size: larger;
+    margin-top: 100px;
+    
+    display: inline-block;
+    padding-top: center;
+       
+  }
+.tr{
+  font-size: 20px;
+}
+caption{
+  font-size: 26px;
+  text-align: right;
+
+}
+.table-day{
+  width: 90px;
+  
+}
+.bunda:hover{
+  box-shadow: inset 0 0 0 25px #3d3637;
+}
+.bunda{
+  transition-duration: 1s;
+  text-decoration: none;
+  
+}
+.div.gallery {
+  margin: 1%;
+  border: 5px solid #000000;
+  float: left;
+  width: 400px;
+}
+.div.gallery img {
+  width: 100%;
+  height: 300px;
+  widows: 600px;
+  background-size: cover;
+}
+
+.div.desc {
+  padding: 20px;
+  text-align: center;
+}
+.celek{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.lol {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.centered{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  
+  display: grid;
+  grid-auto-flow: column;
+}
+div.gallery {
+  border: 5px solid #000000;
+  width: 400px;
+  display: block;
+}
+div.gallery img {
+  width: 100%;
+  height: 300px;
+  widows: 600px;
+  background-size: cover;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+.celek{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+.centered{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  margin-top: 90px;
+} 
+
+  
+ .container {
+   display: flex;
+   width: 100%;
+   height: 40vh;
+   justify-content: space-between;
+ }
+
+ .gmap {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
+.nadpis{
+  font-family: 'BankGothic Lt BT';
+  color: #cfb53b;
+  font-size: 50px;
+  margin-top: 5%;
+  text-align: center;
+}
+.logo{
+  text-align: center;
+  max-width: 100%;
+  margin-top: 6%;
+}
+.list{
+width: 100%;
+text-align: center;
+margin-top: 6%;
+
+}
